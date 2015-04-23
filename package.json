@@ -1,5 +1,5 @@
 {
-  "name": "node-itembase",
+  "name": "itembase",
   "version": "1.0.0",
   "description": "Thin request-like interface for easy access to the itembase REST API from node.js",
   "main": "index.js",
