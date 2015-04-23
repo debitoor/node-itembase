@@ -25,5 +25,11 @@
   },
   "dependencies": {
     "request": "^2.55.0"
-  }
+  },
+  "keywords": [
+    "itembase",
+    "rest",
+    "api",
+    "request"
+  ]
 }
