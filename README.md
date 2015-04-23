@@ -1,4 +1,4 @@
-# node-itembase
+# node-itembase [![Build Status](https://travis-ci.org/e-conomic/node-itembase.svg?branch=master)](https://travis-ci.org/e-conomic/node-itembase)
 
 Thin request-like interface for easy access to the itembase REST API from node.js.
 
