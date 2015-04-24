@@ -10,10 +10,12 @@ var defaults = function(baseUrl) {
 			if (options.uri[0] === '/') {
 				options.uri = baseUrl + options.uri;
 			}
+			if (token) {
+				options.headers = options.headers || {};
+				options.headers.Authorization = 'Bearer ' + token;
+			}
 
 			options.jar = false;
-			options.headers = options.headers || {};
-			options.headers.Authorization = 'Bearer ' + token;
 
 			if (!('json' in options) && callback) {
 				options.json = true;
