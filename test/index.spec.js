@@ -6,7 +6,7 @@ var itembase = require('../');
 
 var mock = function() {
 	return nock('https://api.itembase.io', {
-			reqHeaders: {
+			reqheaders: {
 				Authorization: 'Bearer access_token'
 			}
 		})
